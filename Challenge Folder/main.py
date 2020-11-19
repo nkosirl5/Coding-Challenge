@@ -2,9 +2,8 @@
 
 It looks for "app" in the "main.py" class to run flask with gunicorn"""
 
-import io
+import time
 import logging
-from datetime import datetime
 from pandas import DataFrame
 from flask import Flask, render_template, request, send_file, make_response
 from flask.logging import create_logger
@@ -67,7 +66,7 @@ def at_test(item_count=None):
     log.info("@ at_test(item_count=None): %s", item_count)
 
     #  ˅This is the script that measures the performance, not allowed to edit this section.˅ 
-    hit_time = datetime.utcnow()
+    hit_time = time.time()
 	#  ˄This is the script that measures the performance, not allowed to edit this section.˄ 
 
     # <- get email query string

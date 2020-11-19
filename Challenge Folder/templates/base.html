@@ -35,32 +35,19 @@
 <button onclick="location = '/'">Home</button>
 <br><br>
 
+<img id="coding-time" src="{{ url_for('static', filename='images/circle-marker-red.gif') }}" alt="">
+
 {% block index %}{% endblock index %}
 
 
-	{% block container %}{% endblock container %}
+{% block container %}{% endblock container %}
+
+
 	
+
 </body>
 <footer>
-	<script>
-		toastr.options = {
-			"closeButton": true,
-			"progressBar": true,
-			"positionClass": "toast-bottom-center",
-			"timeOut": "5000",
-			"extendedTimeOut": "1000",
-		}
 
-		// ˅This is the script that measures the performance, not allowed to edit this section.˅ 
-		window.onload = () => {
-			var hit_time = Date.parse("{{ hit }}");
-			var end_time = Date.now();
-			var time_dif = (end_time - hit_time) / 1000;
-			var score = 1 / time_dif * 100000;
-			toastr.info("YOUR SCORE: " + score);
-		}
-		//  ˄This is the script that measures the performance, not allowed to edit this section.˄
-	</script>
 </footer>
 
 </html>

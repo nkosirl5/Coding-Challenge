@@ -11,9 +11,9 @@ DB_KWARGS = get_db_kwargs()
 
 # ˅
 DB_KWARGS_TEXT = {
-    "user":"test-user",
+    "user":"challenge_role",
     "password":"this-is-not-the-real-password",
-    "dbname":"test-db",
+    "dbname":"test_db",
     "host":"34.84.42.175"
 }
 
