@@ -11,10 +11,10 @@ DB_KWARGS = get_db_kwargs()
 
 # ˅
 DB_KWARGS_TEXT = {
-    "user":"challenge_role",
-    "password":"this-is-not-the-real-password",
-    "dbname":"test_db",
-    "host":"34.84.42.175"
+    "user":"postgres",
+    "password":"kncpAllCe9hdtEM9",
+    "dbname":"coding-challenge-db",
+    "host":"34.84.8.142"
 }
 
 # ˅
