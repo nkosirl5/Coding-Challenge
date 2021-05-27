@@ -11,8 +11,8 @@ DB_KWARGS = get_db_kwargs()
 
 # ˅
 DB_KWARGS_TEXT = {
-    "user":"postgres",
-    "password":"kncpAllCe9hdtEM9",
+    "user":"challenger",
+    "password":"not_the_real_password",
     "dbname":"coding-challenge-db",
     "host":"34.84.8.142"
 }
